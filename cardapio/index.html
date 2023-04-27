@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Égua da Cuia</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="models">
+        <div class="cardapio-item">
+            <a href="">
+                <div class="cardapio-item--img"><img src="" /></div>
+                <div class="cardapio-item--add">+</div>
+            </a>
+            <div class="cardapio-item--price">R$ --</div>
+            <div class="cardapio-item--name">--</div>
+            <div class="cardapio-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <div>
+            <button type="button" class="a"><a href="/eguadacuia-main/paginainicial.html" ><p1>Voltar</p1></a></button>
+        </div>
+        <h1>CARDAPIO</h1>
+        <div class="cardapio-area"></div>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Pedidos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <label>
+                <input type="radio" id="din"name="opção" value="din">💸 dinheiro <br>
+                <input type="radio" id="pix"name="opção" value="pix">🤳 pix <br>
+                <input type="radio" id="card"name="opção" value="card">💳 cartão <br>
+                </label>
+                <div class="cart--finalizar">Finalizar a compra</div>
+                
+            </div>
+        </div>
+    </aside>
+    <div class="cardapioWindowArea">
+        <div class="cardapioWindowBody">
+            <div class="cardapioInfo--cancelMobileButton">Voltar</div>
+            <div class="cardapioBig">
+                <img src="" />
+            </div>
+            <div class="cardapioInfo">
+                <h1>--</h1>
+                <div class="cardapioInfo--desc">--</div>
+                <div class="cardapioInfo--sizearea">
+                    <div class="cardapioInfo--sector">Porção</div>
+                    <div class="cardapioInfo--sizes">
+                        <div data-key="0" class="cardapioInfo--size">PEQUENA <span>--</span></div>
+                        <div data-key="1" class="cardapioInfo--size">MÉDIO <span>--</span></div>
+                        <div data-key="2" class="cardapioInfo--size selected">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="cardapioInfo--pricearea">
+                    <div class="cardapioInfo--sector">Preço</div>
+                    <div class="cardapioInfo--price">
+                        <div class="cardapioInfo--actualPrice">R$ --</div>
+                        <div class="cardapioInfo--qtarea">
+                            <button class="cardapioInfo--qtmenos">-</button>
+                            <div class="cardapioInfo--qt">1</div>
+                            <button class="cardapioInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardapioInfo--addButton">Adicionar ao carrinho</div>
+                <div class="cardapioInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./img.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
